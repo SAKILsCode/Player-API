@@ -1,0 +1,21 @@
+{
+  "name": "Player-API",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/SAKILsCode/Player-API",
+  "author": "MD SAKIL HASAN",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}

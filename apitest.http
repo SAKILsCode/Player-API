@@ -1,0 +1,63 @@
+GET http://localhost:4000/health
+
+###
+
+POST http://localhost:4000
+Content-Type: application/json
+
+{
+  "name": "TAMIM",
+  "country": "BD",
+  "rank": 1
+}
+
+###
+
+GET http://localhost:4000
+
+###
+
+GET http://localhost:4000/KwuPd6eN4
+
+###
+
+PATCH http://localhost:4000/SbPDqCUgE
+Content-Type: application/json
+
+{
+  "name": "MASHRAFEE"
+}
+
+###
+
+PUT http://localhost:4000/pdf8S8wHG
+Content-Type: application/json
+
+{
+  "name": "SOMEONEIDONTKNOW",
+  "country": "BD",
+  "rank": 3
+}
+
+###
+
+PUT http://localhost:4000/hdghfgjhj
+Content-Type: application/json
+
+{
+  "name": "MUShFIQ",
+  "country": "BD",
+  "rank": 3
+}
+
+###
+
+DELETE http://localhost:4000/pdf8S8wHG
+
+###
+
+DELETE http://localhost:4000/fhgfhggggfhghgh
+
+###
+
+
