@@ -38,7 +38,7 @@ app.delete('/:id', async (req, res) => {
   const newPlayers = players.filter((item) => item.id !== id);
 
   await fs.writeFile(dbLocation, JSON.stringify(newPlayers));
-  res.status(203).send();
+  res.status(204).send();
 });
 
 app.put('/:id', async (req, res) => {
